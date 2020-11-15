@@ -20,7 +20,7 @@ module.exports = function (req, res) {
 
     return res.json(plan);
   } else {
-    return res.send('');
+    return res.redirect('/');
   }
 };
 
