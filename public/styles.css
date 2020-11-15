@@ -8,7 +8,6 @@
 }
 
 header {
-  /* border: 1px solid #bd2323;*/
   font-size: 1.5rem;
   text-align: center;
   background-color: rgb(221, 221, 21);
@@ -44,12 +43,10 @@ li {
 }
 
 .HeaderTittle {
-  /*  border: 1px solid #bd2323;*/
   align-items: center;
 }
 
 .Description {
-  /*border: 1px solid #6409af;*/
   display: flex;
   text-align: start;
   font-size: 1.5rem;
@@ -58,21 +55,17 @@ li {
 }
 
 .ButtonDiv {
-  /* border: 1px solid #26cc65;*/
   display: flex;
   justify-content: center;
   align-items: center;
   height: 4.5rem;
 }
+
 .List {
   margin-top: 2rem;
 }
 
 .Container {
-  /*border: 1px solid #0598ec;*/
   padding-left: 5rem;
   width: 100%;
-}
-.ListWrapper {
-  /*border: 1px solid #e40303;*/
 }
