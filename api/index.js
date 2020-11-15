@@ -33,7 +33,7 @@ function shuffle(fieldName = '', max) {
     [fieldName]: [],
   };
 
-  const field = fields['health'];
+  const field = fields[fieldName];
   const length = field.length;
 
   for (let index = 0; index < max; index++) {
