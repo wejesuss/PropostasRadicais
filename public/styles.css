@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Cabin", sans-serif;
+}
+
+header {
+  /* border: 1px solid #bd2323;*/
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgb(221, 221, 21);
+  height: 12rem;
+}
+body {
+  background-color: rgb(24, 20, 20);
+}
+button {
+  border-radius: 0.4rem;
+  width: 7rem;
+  height: 3rem;
+  background-color: rgb(243, 119, 17);
+  border: none;
+  transition: 0.5s
+}
+button:hover {
+    background-color: rgb(240, 182, 135);
+    cursor: pointer;
+    
+}
+
+li {
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+
+.HeaderTexts {
+  display: flex;
+  justify-content: center;
+}
+
+.HeaderTittle {
+  /*  border: 1px solid #bd2323;*/
+  align-items: center;
+}
+
+.Description {
+  /*border: 1px solid #6409af;*/
+  display: flex;
+  text-align: start;
+  font-size: 1.5rem;
+  color: #252020;
+  width: 30rem;
+}
+
+.ButtonDiv {
+  /* border: 1px solid #26cc65;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.5rem;
+}
+.List {
+  margin-top: 2rem;
+}
+
+.Container {
+  /*border: 1px solid #0598ec;*/
+  padding-left: 5rem;
+  width: 100%;
+}
+.ListWrapper {
+  /*border: 1px solid #e40303;*/
+}
