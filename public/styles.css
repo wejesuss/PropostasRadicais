@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  list-style: none;
+  list-style: '- ';
   text-decoration: none;
   font-family: 'Cabin', sans-serif;
 }
@@ -32,6 +32,10 @@ button:hover {
   cursor: pointer;
 }
 
+ul {
+  padding-left: 2.4rem;
+}
+
 li {
   color: #ffffff;
   margin-bottom: 3rem;
@@ -48,7 +52,7 @@ li {
 
 .Description {
   display: flex;
-  text-align: start;
+  text-align: center;
   font-size: 1.5rem;
   color: #252020;
   width: 30rem;
@@ -68,4 +72,17 @@ li {
 .Container {
   padding-left: 5rem;
   width: 100%;
+}
+
+.ListWrapper h2 {
+  width: 80%;
+  margin: 0 auto;
+  color: #fefefe;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.ListWrapper h3 {
+  margin-bottom: 0.8rem;
+  color: #eeeeee;
 }
