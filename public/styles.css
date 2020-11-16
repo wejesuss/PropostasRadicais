@@ -19,9 +19,10 @@ body {
 }
 
 button {
+  font-size: 1.2rem;
   border-radius: 0.4rem;
-  width: 7rem;
-  height: 3rem;
+  width: 15rem;
+  height: 3.5rem;
   background-color: rgb(243, 119, 17);
   border: none;
   transition: 0.5s;
@@ -40,13 +41,20 @@ li {
   color: #ffffff;
   margin-bottom: 3rem;
 }
-
+a {
+  color: rgb(228, 228, 222);
+}
+span {
+  color: rgb(221, 221, 21);
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
 .HeaderTexts {
   display: flex;
   justify-content: center;
-}
-
-.HeaderTittle {
   align-items: center;
 }
 
@@ -67,6 +75,7 @@ li {
 
 .List {
   margin-top: 2rem;
+  padding-right: 5rem;
 }
 
 .Container {
@@ -74,15 +83,53 @@ li {
   width: 100%;
 }
 
-.ListWrapper h2 {
-  width: 80%;
+.InitialText {
   margin: 0 auto;
   color: #fefefe;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 .ListWrapper h3 {
   margin-bottom: 0.8rem;
   color: #eeeeee;
+}
+@media only screen and (max-width: 600px) {
+  header {
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgb(221, 221, 21);
+    height: 10rem;
+  }
+  button {
+    margin-top: 2rem;
+  }
+  ul {
+    padding-left: 2.4rem;
+  }
+  .HeaderTittle {
+    text-align: center;
+    height: 5rem;
+    word-break: keep-all;
+  }
+  .InitialText {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 3rem;
+  }
+  .Description {
+    display: flex;
+    justify-content: center;
+    padding: 0rem 6rem 0rem 6rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #252020;
+  }
+  .Container {
+    padding-left: 1rem;
+  }
+  .ListWrapper h2 {
+    word-break: keep-all;
+  }
 }
