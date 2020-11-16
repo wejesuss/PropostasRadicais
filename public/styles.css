@@ -19,9 +19,10 @@ body {
 }
 
 button {
+  font-size: 1.2rem;
   border-radius: 0.4rem;
-  width: 7rem;
-  height: 3rem;
+  width: 15rem;
+  height: 3.5rem;
   background-color: rgb(243, 119, 17);
   border: none;
   transition: 0.5s;
