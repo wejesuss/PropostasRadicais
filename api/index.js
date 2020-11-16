@@ -24,11 +24,12 @@ module.exports = function (req, res) {
   }
 };
 
-function getQuantityToShuffle(max = 0) {
+function getQuantityToShuffle(max = 1) {
   return Math.round(Math.random() * (max - 1) + 1);
 }
 
 function shuffle(fieldName = '', max) {
+  const inserted = [];
   const tenders = {
     [fieldName]: [],
   };
@@ -37,9 +38,14 @@ function shuffle(fieldName = '', max) {
   const length = field.length;
 
   for (let index = 0; index < max; index++) {
-    const position = Math.floor(Math.random() * length);
+    let position;
+    do {
+      position = Math.floor(Math.random() * length);
+    } while (inserted.includes(position));
+
     const element = field[position];
     tenders[fieldName].push(element);
+    inserted.push(position);
   }
 
   return tenders;
